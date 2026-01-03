@@ -15,7 +15,7 @@ import idr_torch
 from transformers import DataCollatorForLanguageModeling
 
 os.environ['WANDB_MODE'] = 'offline'
-wandb_project = "SFT-BioMistral-7B-2"
+wandb_project = ""
 
 if len(wandb_project) > 0:
     os.environ["WANDB_PROJECT"] = wandb_project
@@ -158,7 +158,8 @@ def main():
     )
 
     # Training
-    train_result = trainer.train(resume_from_checkpoint=True)
+    #train_result = trainer.train(resume_from_checkpoint=True)
+    train_result = trainer.train()
 
     # Save results
     metrics = train_result.metrics
