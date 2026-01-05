@@ -21,6 +21,14 @@ Adapted checkpoints are released on Hugging Face :
 - CPT+SFT models
 
 👉 https://huggingface.co/medAdapt
+
+## 🤗 Data
+
+- CPT training data 👉 https://huggingface.co/datasets/Dr-BERT/NACHOS
+- SFT training data 👉 MedInjection-FR/QWEN-4B-ALL
+- Evaluation data 👉 MedInjection-FR/QWEN-4B-ALL
+
+
 ---
 
 ## 🧪 Experimental scope
