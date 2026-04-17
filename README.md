@@ -2,7 +2,7 @@
 
 This repository contains the **code, evaluation scripts, and resources** associated with the paper:
 
-> Choosing How to Adapt: An Empirical Study on Medical Question-Answering Adaptation
+> Trade-offs in Medical LLM Adaptation: An Empirical Study in French QA
 
 We present a controlled and statistically grounded study of **medical domain adaptation** for large language models, comparing **continual pretraining (CPT)**, **supervised fine-tuning (SFT)**, and their combination across multiple model families, initialization types, and decoding strategies.
 
