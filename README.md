@@ -64,4 +64,13 @@ Practical **adaptation guidelines** are summarized in the paper’s conclusion.
 If you use this work, please cite:
 
 ```bibtex
+@misc{belmadani2026tradeoffsmedicalllmadaptation,
+      title={Trade-offs in Medical LLM Adaptation: An Empirical Study in French QA}, 
+      author={Ikram Belmadani and Oumaima El Khettari and Carlos Ramisch and Frederic Bechet and Richard Dufour and Benoit Favre},
+      year={2026},
+      eprint={2606.19266},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2606.19266}, 
+}
 
